@@ -1,6 +1,6 @@
-## Calcular la disponibilidad del sistema si tenemos dos réplicas de cada elemento (en total 3 elementos en cada subsistema).
-
 ### Ejercicio 1
+
+#### * Calcular la disponibilidad del sistema si tenemos dos réplicas de cada elemento (en total 3 elementos en cada subsistema):
 
 | Availability % | 1 Component | 2 Components | 3 Components   |
 | -------------- | ----------- | ------------ | -------------- |
@@ -23,3 +23,9 @@ Example Web:
 Web1 	= 85%
 Web2 	= 85% + (1-85%) * 85% = 97.75%
 Web3 	= 97.75% + (1-97.75%) * 85% = 99.6625%
+
+- - -
+
+### Ejercicio 2
+
+#### * Buscar frameworks y librerías para diferentes lenguajes que permitan hacer aplicaciones altamente disponibles con relativa facilidad. Como ejemplo, examina PM2 <https://github.com/Unitech/pm2>, que sirve para administrar clústeres de NodeJS.
