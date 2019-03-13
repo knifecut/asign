@@ -1,3 +1,7 @@
+#Calcular la disponibilidad del sistema si tenemos dos réplicas de cada elemento (en total 3 elementos en cada subsistema).
+
+##Ejercicio 1
+
 | Availability % | 1 Component | 2 Components | 3 Components   |
 | -------------- | ----------- | ------------ | -------------- |
 | Web            |    85,00%   |  97,750000%  |  99.66250000%  |
